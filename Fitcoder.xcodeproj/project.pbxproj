@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5755F9462BF4C9E1003FEF74 /* Fitcoder Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5755F9452BF4C9E1003FEF74 /* Fitcoder Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5755F94B2BF4C9E1003FEF74 /* FitcoderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F94A2BF4C9E1003FEF74 /* FitcoderApp.swift */; };
+		5755F94D2BF4C9E1003FEF74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F94C2BF4C9E1003FEF74 /* ContentView.swift */; };
+		5755F94F2BF4C9E2003FEF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5755F94E2BF4C9E2003FEF74 /* Assets.xcassets */; };
+		5755F9522BF4C9E2003FEF74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5755F9512BF4C9E2003FEF74 /* Preview Assets.xcassets */; };
+		576E02842BFDD90100F92CA0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E02832BFDD90100F92CA0 /* NetworkManager.swift */; };
+		5770BFB22BFB30B100CC4DB3 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770BFB12BFB30B100CC4DB3 /* HealthKitManager.swift */; };
+		57E582F32C03599E007DF9D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E582F22C03599E007DF9D7 /* Constants.swift */; };
+		57E582F52C035B0B007DF9D7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E582F42C035B0B007DF9D7 /* UserDefaultsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5755F9472BF4C9E1003FEF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5755F9392BF4C9E1003FEF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5755F9442BF4C9E1003FEF74;
+			remoteInfo = "Fitcoder Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5755F9582BF4C9E2003FEF74 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5755F9462BF4C9E1003FEF74 /* Fitcoder Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5755F93F2BF4C9E1003FEF74 /* Fitcoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitcoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5755F9452BF4C9E1003FEF74 /* Fitcoder Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitcoder Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5755F94A2BF4C9E1003FEF74 /* FitcoderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitcoderApp.swift; sourceTree = "<group>"; };
+		5755F94C2BF4C9E1003FEF74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5755F94E2BF4C9E2003FEF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5755F9512BF4C9E2003FEF74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		576E02832BFDD90100F92CA0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5770BFB12BFB30B100CC4DB3 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		5770BFB32BFB369B00CC4DB3 /* Fitcoder Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fitcoder Watch App.entitlements"; sourceTree = "<group>"; };
+		5770BFB42BFB61A400CC4DB3 /* Fitcoder-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fitcoder-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		57E582F22C03599E007DF9D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		57E582F42C035B0B007DF9D7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5755F9422BF4C9E1003FEF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5755F9382BF4C9E1003FEF74 = {
+			isa = PBXGroup;
+			children = (
+				5755F9492BF4C9E1003FEF74 /* Fitcoder Watch App */,
+				5755F9402BF4C9E1003FEF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5755F9402BF4C9E1003FEF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5755F93F2BF4C9E1003FEF74 /* Fitcoder.app */,
+				5755F9452BF4C9E1003FEF74 /* Fitcoder Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5755F9492BF4C9E1003FEF74 /* Fitcoder Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				57E582F12C035990007DF9D7 /* Helpers */,
+				57E582EF2C0356B7007DF9D7 /* Managers */,
+				5770BFB42BFB61A400CC4DB3 /* Fitcoder-Watch-App-Info.plist */,
+				5770BFB32BFB369B00CC4DB3 /* Fitcoder Watch App.entitlements */,
+				5755F94A2BF4C9E1003FEF74 /* FitcoderApp.swift */,
+				5755F94C2BF4C9E1003FEF74 /* ContentView.swift */,
+				5755F94E2BF4C9E2003FEF74 /* Assets.xcassets */,
+				5755F9502BF4C9E2003FEF74 /* Preview Content */,
+			);
+			path = "Fitcoder Watch App";
+			sourceTree = "<group>";
+		};
+		5755F9502BF4C9E2003FEF74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5755F9512BF4C9E2003FEF74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57E582EF2C0356B7007DF9D7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5770BFB12BFB30B100CC4DB3 /* HealthKitManager.swift */,
+				576E02832BFDD90100F92CA0 /* NetworkManager.swift */,
+				57E582F42C035B0B007DF9D7 /* UserDefaultsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		57E582F12C035990007DF9D7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				57E582F22C03599E007DF9D7 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5755F93E2BF4C9E1003FEF74 /* Fitcoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5755F9592BF4C9E2003FEF74 /* Build configuration list for PBXNativeTarget "Fitcoder" */;
+			buildPhases = (
+				5755F93D2BF4C9E1003FEF74 /* Resources */,
+				5755F9582BF4C9E2003FEF74 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5755F9482BF4C9E1003FEF74 /* PBXTargetDependency */,
+			);
+			name = Fitcoder;
+			productName = Fitcoder;
+			productReference = 5755F93F2BF4C9E1003FEF74 /* Fitcoder.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5755F9442BF4C9E1003FEF74 /* Fitcoder Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5755F9552BF4C9E2003FEF74 /* Build configuration list for PBXNativeTarget "Fitcoder Watch App" */;
+			buildPhases = (
+				5755F9412BF4C9E1003FEF74 /* Sources */,
+				5755F9422BF4C9E1003FEF74 /* Frameworks */,
+				5755F9432BF4C9E1003FEF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitcoder Watch App";
+			productName = "Fitcoder Watch App";
+			productReference = 5755F9452BF4C9E1003FEF74 /* Fitcoder Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5755F9392BF4C9E1003FEF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5755F93E2BF4C9E1003FEF74 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5755F9442BF4C9E1003FEF74 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5755F93C2BF4C9E1003FEF74 /* Build configuration list for PBXProject "Fitcoder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5755F9382BF4C9E1003FEF74;
+			productRefGroup = 5755F9402BF4C9E1003FEF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5755F93E2BF4C9E1003FEF74 /* Fitcoder */,
+				5755F9442BF4C9E1003FEF74 /* Fitcoder Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5755F93D2BF4C9E1003FEF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5755F9432BF4C9E1003FEF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5755F9522BF4C9E2003FEF74 /* Preview Assets.xcassets in Resources */,
+				5755F94F2BF4C9E2003FEF74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5755F9412BF4C9E1003FEF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E582F32C03599E007DF9D7 /* Constants.swift in Sources */,
+				576E02842BFDD90100F92CA0 /* NetworkManager.swift in Sources */,
+				57E582F52C035B0B007DF9D7 /* UserDefaultsManager.swift in Sources */,
+				5755F94D2BF4C9E1003FEF74 /* ContentView.swift in Sources */,
+				5770BFB22BFB30B100CC4DB3 /* HealthKitManager.swift in Sources */,
+				5755F94B2BF4C9E1003FEF74 /* FitcoderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5755F9482BF4C9E1003FEF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5755F9442BF4C9E1003FEF74 /* Fitcoder Watch App */;
+			targetProxy = 5755F9472BF4C9E1003FEF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5755F9532BF4C9E2003FEF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5755F9542BF4C9E2003FEF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5755F9562BF4C9E2003FEF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fitcoder Watch App/Fitcoder Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitcoder Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WRCQSAW72C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitcoder-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Fitcoder;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.developeracademy.Fitcoder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		5755F9572BF4C9E2003FEF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fitcoder Watch App/Fitcoder Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitcoder Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WRCQSAW72C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitcoder-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Fitcoder;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.developeracademy.Fitcoder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		5755F95A2BF4C9E2003FEF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRCQSAW72C;
+				INFOPLIST_KEY_CFBundleDisplayName = Fitcoder;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.developeracademy.Fitcoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5755F95B2BF4C9E2003FEF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRCQSAW72C;
+				INFOPLIST_KEY_CFBundleDisplayName = Fitcoder;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.developeracademy.Fitcoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5755F93C2BF4C9E1003FEF74 /* Build configuration list for PBXProject "Fitcoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5755F9532BF4C9E2003FEF74 /* Debug */,
+				5755F9542BF4C9E2003FEF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5755F9552BF4C9E2003FEF74 /* Build configuration list for PBXNativeTarget "Fitcoder Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5755F9562BF4C9E2003FEF74 /* Debug */,
+				5755F9572BF4C9E2003FEF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5755F9592BF4C9E2003FEF74 /* Build configuration list for PBXNativeTarget "Fitcoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5755F95A2BF4C9E2003FEF74 /* Debug */,
+				5755F95B2BF4C9E2003FEF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5755F9392BF4C9E1003FEF74 /* Project object */;
+}
