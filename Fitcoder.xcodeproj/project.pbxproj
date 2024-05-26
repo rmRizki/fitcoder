@@ -53,6 +53,7 @@
 		5770BFB12BFB30B100CC4DB3 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		5770BFB32BFB369B00CC4DB3 /* Fitcoder Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fitcoder Watch App.entitlements"; sourceTree = "<group>"; };
 		5770BFB42BFB61A400CC4DB3 /* Fitcoder-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fitcoder-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		57D016B92C03667600B3C2E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		57E582F22C03599E007DF9D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		57E582F42C035B0B007DF9D7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +72,7 @@
 		5755F9382BF4C9E1003FEF74 = {
 			isa = PBXGroup;
 			children = (
+				57D016B92C03667600B3C2E0 /* README.md */,
 				5755F9492BF4C9E1003FEF74 /* Fitcoder Watch App */,
 				5755F9402BF4C9E1003FEF74 /* Products */,
 			);
