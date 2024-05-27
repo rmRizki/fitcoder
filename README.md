@@ -30,7 +30,7 @@ enum Constants {
     static let standTimeThreshold = 10.0 // value used to determine when to commit
     static let userName = "userName" // your GitHub username without the @ symbol
     static let repoName = "repoName" // your GitHub repo name without the .git extension
-    static let filePath = "filePath" // file path in the repo to
+    static let filePath = "filePath" // file path in the repo to commit
     static let token = "token" // your GitHub personal access token
     static let name = "name" // your name to put in the commit
     static let email = "email" // your email to put in the commit
