@@ -23,7 +23,7 @@ git clone https://github.com/rmRizki/Fitcoder.git
 open Fitcoder.xcodeproj
 ```
 
-3. Navigate to the Constants.swift file and fill in the necessary values:
+3. Navigate to the `Constants.swift` file and fill in the necessary values:
 
 ```swift
 enum Constants {
