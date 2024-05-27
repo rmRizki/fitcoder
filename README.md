@@ -14,7 +14,7 @@ Fitcoder is an Apple Watch application designed to encourage developers to maint
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/username/Fitcoder.git
+git clone https://github.com/rmRizki/Fitcoder.git
 ```
 
 2. Open the project in Xcode:
