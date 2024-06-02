@@ -14,7 +14,7 @@ Fitcoder is an Apple Watch application designed to encourage developers to maint
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/username/Fitcoder.git
+git clone https://github.com/rmRizki/Fitcoder.git
 ```
 
 2. Open the project in Xcode:
@@ -23,14 +23,14 @@ git clone https://github.com/username/Fitcoder.git
 open Fitcoder.xcodeproj
 ```
 
-3. Navigate to the Constants.swift file and fill in the necessary values:
+3. Navigate to the `Constants.swift` file and fill in the necessary values:
 
 ```swift
 enum Constants {
     static let standTimeThreshold = 10.0 // value used to determine when to commit
     static let userName = "userName" // your GitHub username without the @ symbol
     static let repoName = "repoName" // your GitHub repo name without the .git extension
-    static let filePath = "filePath" // file path in the repo to
+    static let filePath = "filePath" // file path in the repo to commit
     static let token = "token" // your GitHub personal access token
     static let name = "name" // your name to put in the commit
     static let email = "email" // your email to put in the commit
