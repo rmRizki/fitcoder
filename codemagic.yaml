@@ -8,7 +8,7 @@ workflows:
         - tag
         - pull_request
       branch_patterns:
-        - pattern: main
+        - pattern: "*"
           include: true
           source: true
 
